@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+        <meta name="viewport" content="width-device-width, inital-scale=1.0" >
+        <script src="https://kit.fontawesome.com/7538624189.js" crossorigin="anonymous"></script>
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="port.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="main.html"><img src="images/logo.png" /></a>
+                    <div class="nav-links">
+                <div class="nav-links">
+                    <ul>
+                     
+                      <li><a href="#about">About Me</a></li>
+                      <li><a href="#services">My skills</a></li>
+                      <li><a href="#Portfolio">My works</a></li>
+                      <!-- <li><a href="#">Blog</a></li> -->
+                      <li><a href="#contact">Contact</a></li>
+                     
+                    </ul>
+                  </div>
+                </nav>
+                <div class="header-text">
+                    <p> Developer</p>
+                    <h1> Hi, I'm <Span>Hitesh P </Span><br>from Karnataka</h1>
+                </div>
+            </div>
+        </div>
+<!----------About Me---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/h11.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am writing to express my keen interest in the Intern position at Workato. 
+                            With my strong academic background in computer science engineer, coupled 
+                            with my diverse technical skills and hands-on experience in data 
+                            analytics, I am confident that I possess the necessary qualifications 
+                            to excel in this role.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing web app interfaces</li>
+                                    <li><span>Web Development</span><br> Web app Development</li>
+                                    <li><span>App Development</span><br>Building Android/ iOS apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>2023 - Current</span><br>Part time CAD development employee</li>
+                                    <li><span>2022 - 2022</span><br> Virtual Intern - Smartinternz</li>
+                                    <li><span>2021 - 2023 </span><br>Virtual Intern - Future ready talent</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>2022 - 2026</span><br>B.E from East point college of engineering and technology Bangalore</li>
+                                    <li><span>2020 - 2022</span><br>PUC from East point PU College</li>
+                                    <li><span>2018 - 2020</span><br>10th CBSE from Narayana e-techno School</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------Services------------------------------ this has to be serives in the futur not now -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>UI/UX</h2>
+                        <p> Stay up-to-date with the latest trends and best practices in UI/UX design by 
+                            reading blogs, attending conferences, and following industry experts.</p>
+                        <!-- <a href="#" >learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Development</h2>
+                        <p>Various web development projects, including building a food distribution website,
+                             creating a chatbot, and styling different sections of websites.</p>
+                        <!-- <a href="#">learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Data Structure and Algorithms</h2>
+                        <p> The foundational concepts in computer science that focus on organizing data effectively and 
+                            designing efficient algorithms to solve problems.</p>
+                        <!-- <a href="#">learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python Data Analytics</h2>
+                        <p> The foundational concepts in computer science that focus on organizing data effectively and 
+                            designing efficient algorithms to solve problems.</p>
+                        <!-- <a href="#">learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio -->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="images/ec.jpg">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>This helps people around the world connect and purchase what ever they want </p>
+                    <a href="main.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/soc.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app helps user to connect to people all around the world </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/so.png">
+                <div class="layer">
+                    <h3>Data Analysis</h3>
+                    <p>This helps to Analysis the data and give a simple report </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+            </div>
+        </div>
+        <a href="#services" class="btn">see more</a>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <div class="sub-title">Contact Me</div>
+                <p>Hiteshpsg2454@gmail.com</p>
+                <p>8088055011</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></i></a>
+                    <a href="https://www.linkedin.com/in/hitesh-p-aa55662a3"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Hitesh-PSG"> <i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6"placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+            <!-- <form name="submit-to-google-sheet">
+                <input type="hidden" name="ip_address" id="ip_address">
+                <input type="hidden" name="latitude" id="latitude">
+                <input type="hidden" name="longitude" id="longitude">
+                <input type="hidden" name="address" id="address">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            </div> -->
+    
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Hitesh Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove( "active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname) .classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgxPDEFwnRRY340AhYqm_dGg4p_avwEknkFbXW1DNEL_MyZZr-xnRUCJCMUeaEE2jaIA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ <!-- ip adress one  -->
+<!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgxPDEFwnRRY340AhYqm_dGg4p_avwEknkFbXW1DNEL_MyZZr-xnRUCJCMUeaEE2jaIA/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const ipAddressField = document.getElementById('ip_address');
+    const latitudeField = document.getElementById('latitude');
+    const longitudeField = document.getElementById('longitude');
+    const addressField = document.getElementById('address');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        fetch('https://api64.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                ipAddressField.value = data.ip;
+
+                navigator.geolocation.getCurrentPosition(
+                    position => {
+                        latitudeField.value = position.coords.latitude;
+                        longitudeField.value = position.coords.longitude;
+
+                        fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${position.coords.latitude}&lon=${position.coords.longitude}&zoom=18&addressdetails=1`)
+                            .then(response => response.json())
+                            .then(data => {
+                                addressField.value = data.display_name;
+
+                                // Submit the form
+                                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                    .then(response => console.log('Success!', response))
+                                    .catch(error => console.error('Error submitting form:', error.message));
+                            })
+                            .catch(error => console.error('Error fetching address:', error.message));
+                    },
+                    error => {
+                        console.error('Error getting geolocation:', error.message);
+                        // Submit the form without geolocation
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                            .then(response => console.log('Success!', response))
+                            .catch(error => console.error('Error submitting form:', error.message));
+                    }
+                );
+            })
+            .catch(error => console.error('Error getting IP address:', error.message));
+    });
+</script> -->
+
+
+
+
+ </body>
+</html>
